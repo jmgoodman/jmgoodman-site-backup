@@ -1,0 +1,79 @@
+---
+title: "Presentations"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+
+<br>
+<h4>Talks</h4>
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (April 2021). Grip-specific neural population dynamics are not shared between action and observation in the
+frontoparietal cortical grasping network. Data Blitz talk. Meeting of the Society for the Neural Control of Movement (NCM), Online. ([abstract](abstract_ncm2021.html)) ([link to conference program, see pp. 30-31](files/NCM2021.pdf)) ([slides](files/Regular-Presentations/BlitzTalk_19042021.pdf))<br><br>
+
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (October 2020). Grip-specific dynamics are not shared between action and observation in the frontoparietal cortical grasping network. Interactive talk. Neuromatch, Online. ([link to Neuromatch program abstract](https://neuromatch.io/abstract/?submission_id=rec7oHoU7zBy5lR1l)) ([link to YouTube recording](https://www.youtube.com/watch?v=8S1F-fsPEvA)) <br><br>
+
+<b>Goodman, J. M.</b>, Suresh, A.K., Okorokova, E.V., Hatsopoulos, N.G., & Bensmaia, S.J. (October 2019). Primary motor cortex does not exhibit orderly dynamics during grasp. Nanosymposium talk. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 49: 722.08] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/7883/presentation/65658)) ([slides](files/Regular-Presentations/Rotational_Dynamics_Talk_JMG_2019_10_17.pdf))<br><br>
+
+<b>Goodman, J. M.</b>. (Early 2019). Postural representations of the hand in primate sensorimotor cortex. Job talk given when applying for post-doctoral positions at Johns Hopkins University, the German Primate Center (DPZ), and the University of Rochester. ([slides](files/Regular-Presentations/Job_Talk_2019_02_11.pdf)) <br><br>
+<br>
+
+<h4>Posters</h4>
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (November 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Society for Neuroscience, Online. [Abstracts of the Society for Neuroscience 50: P555.04] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/10485/presentation/19054)) ([slides](files/Regular-Presentations/Mirror2021_SFN_forpresentation.pdf))<br><br>
+
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (September 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC21/abstracts#/uuid/04617b1f-94cc-4ae4-bcc7-888e9aa6de7e))<br><br>
+
+<b>Goodman, J. M.</b>, Schaffelhofer, S., & Scherberger, H. (October 2020). Population-level signatures of action and observation in the frontoparietal grasping network. Virtual Poster. Bernstein Conference, Online. ([link to Bernstein Conference program abstract](https://abstracts.g-node.org/conference/BC20/abstracts#/uuid/4edb7e77-9c07-4db7-869b-ebff5ac0d02d))<br><br>
+
+<b>Goodman, J. M.</b>, Lee, A.S., Okorokova, E.V., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2018). Neurons in somatosensory and motor cortices encode hand postures, not joint velocities. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 48: 310.12] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/#!/4649/presentation/2223))<br><br>
+
+<b>Goodman, J. M.</b>, Lee, A.S., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (May 2018). The representation of hand postures and movements in somatosensory cortex. Poster. Janelia conference on the Mechanisms of Dexterous Behavior, Ashburn, VA ([link to conference website](https://www.janelia.org/you-janelia/conferences/mechanisms-dexterous-behavior)) ([abstract](abstract_janelia.html))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (May 2017). No evidence for hand synergies in sensorimotor cortices of macaques. Poster. Meeting of the Society for the Neural Control of Movement (NCM), Dublin, Ireland. ([link to conference website](https://ncm-society.org/meeting-history/)) ([abstract](abstract_ncm.html))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (November 2016). High-dimensional representation of hand movements in sensory and motor cortices. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 46: 151.11] ([link to SfN program abstract](https://www.abstractsonline.com/pp8/index.html#!/4071/presentation/18558))<br><br>
+
+<b>Goodman, J. M.</b>, Tabot, G.A., Rajan, A.S., Suresh, A.K., Hatsopoulos, N.G., & Bensmaia, S.J. (October 2015). Do proprioceptive neurons in somatosensory cortex encode muscle length? Poster. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 45: 706.22] ([link to SfN program abstract](https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=8f4e9605-764e-4cdf-9ce4-aeaeb37f00da&cKey=758e5fa6-12e3-4516-84d8-b0b4893bdf96&mKey=%7bD0FF4555-8574-4FBB-B9D4-04EEC8BA0C84%7d))<br><br>
+
+<b>Goodman, J. M.</b>, Lieber, J.D., Saal, H.P., & Bensmaia, S.J. (November 2014). Spatial variation of simulated slowly adapting type 1 afferent responses to embossed dot patterns predicts perceived roughness. Poster. Society for Neuroscience, Washington, D.C. [Abstracts of the Society for Neuroscience 44: 441.16] ([link to SfN program abstract](https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=d2d5f234-0ab5-4eb3-9400-51d2702c1327&cKey=5f54a8fe-aa44-47a3-97b2-1bcad3dfa5be&mKey=%7b54C85D94-6D69-4B09-AFAA-502C0E680CA7%7d))<br><br>
+<br>
+
+<h4>Class Lectures</h4>
+<br>
+[Lecture Slides | Graph Theory | Methods in Computational Neuroscience | 2015](files/course-materials/Methods-in-Comp-Neuro/GraphTheoryLecture_JMG_.pdf)
+<br>
+
+<br>
+[Lecture Notes | Kalman Filter | Signal Analysis for Neuroscientists | 2015](files/course-materials/Signal-analysis-for-neuroscientists/Kalman-Filter-Handout.pdf)
+<br><br>
+<br>
+
+<h4>Internal Journal Club Presentations</h4>
+<br>
+[Discussion of "Hierarchical organization of rhesus macaque behavior", Voloh et al., 2022, *bioRxiv* preprint | 08 March 2022 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/DPZ-NBL-JC-08-03-2022.pdf) ([Link to preprint](https://www.biorxiv.org/content/10.1101/2021.11.15.468721v1))
+<br>
+
+<br>
+[Executive summary of Neuromatch Deep Learning Summer School August 2021 | 05 October 2021 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/Neuromatch-Executive-Summary_05102021.pdf) ([Link to course materials](deeplearning.neuromatch.io))
+<br>
+
+<br>
+[Discussion of "High-resolution imaging of skin deformation shows that afferents from human fingertips signal slip onset", Delhaye et al., 2021 *eLife* | 11 May 2021 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/Delhaye_etal_2021_.pdf) ([Link to journal article](https://elifesciences.org/articles/64679))
+<br>
+
+<br>
+[Discussion of "Structure in Neural Activity during Observed and Executed Movements is Shared at the Neuronal Population Level, not in Single Neurons", Jiang et al. 2020, *Cell Reports* | 08 December 2020 | Neurobiology Lab Journal Club | German Primate Center](files/JC-presentations/NBL-JC-08-12-2020-Jiang-Saggar-Ryu-Shenoy-Kao-2020-Cell-Reports-07122020.pdf) ([Link to journal article](https://www.sciencedirect.com/science/article/pii/S2211124720309918))
+<br>
+
+<br>
+[Discussion of "Effect of viewing distance on object responses in macaque areas 45B, F5a, and F5p", Caprara and Janssen 2020, *bioRxiv* preprint | 30 June 2020 | Neurobiology Lab Journal Club | German Primate Center](files/Capara-and-Janssen-2020-Effect-of-viewing-distance-in-frontal-cortex.pdf) ([Link to preprint](https://www.biorxiv.org/content/10.1101/2020.05.04.070862v1))
+<br>
+
+<br>
+[Discussion of "Condition-Dependent Neural Dimensions Progressively Shift during Reach to Grasp", Rouse and Schieber 2019, *Cell Reports* | 19 November 2019 | Neurobiology Lab Journal Club | German Primate Center](files/JMG_JC_2019_11_19.pdf) ([Link to journal article](https://www.sciencedirect.com/science/article/pii/S2211124718318333))
+<br>
+
+<br>
+[Discussion of "Spinal stretch reflexes support efficient hand control", Weiler et al. 2019, *Nature Neuroscience* brief communication | 18 February 2019 | Bensmaia Lab Journal Club | University of Chicago](files/Pruszynski-nature-neuro-18022019.pdf) ([Link to journal article](https://www.nature.com/articles/s41593-019-0336-0)) ([Link to PDF hosted by the Gribble lab website](https://gribblelab.org/assets/publications/2019_Weiler_NatNeurosci.pdf))
+<br>

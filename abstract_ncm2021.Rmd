@@ -1,0 +1,35 @@
+---
+title: "Grip-specific neural population dynamics are not shared between action and observation in the frontoparietal cortical grasping network."
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br><br>
+From pages 30-31 of the conference program ([link](files/NCM2021.pdf)).
+
+<br>
+<h4>Authors</h4>
+<b>Goodman, J. M.</b><br>
+Schaffelhofer, S.<br>
+Scherberger, H.<br>
+<br><br>
+
+<h4>Abstract</h4>
+Neurons in the frontoparietal cortical grasping network respond during both the execution and observation of
+an action. This observation has been used to support numerous theories linking motor control and cognition
+but remains poorly understood at the neuronal population level. To address this, we use chronic multi-electrode
+arrays to record simultaneously from neuronal populations in the macaque primary motor (M1), premotor (F5), and
+posterior parietal (AIP) cortices as animals either grasp a variety of different objects or observe a human subject
+doing the same. We find a lack of distinct functional neuronal classes in any of these cortical areas; instead,
+neurons exhibit a continuum of preferences for action and observation. The lack of clear neuron classes affirms
+that the link between action and observation may indeed be better understood in the framework of neuronal state
+space. Using targeted dimensionality reduction techniques, we find dimensions of neural activity that are shared 
+between action and observation contexts, which decrease in prominence from AIP to F5 to M1. However, this
+shared activity does not include a shared representation of grip type, as assessed using classification methods that
+allow for response scaling and latency differences between the two contexts. We also fit linear dynamical systems
+to these data and fail to find a common dynamical structure underlying the disparate grip representations between
+action and observation. Activity during observation therefore lacks congruence with the precise grip-specific
+representations and dynamics seen during action. These results suggest that the link between action observation
+and action execution is weaker than anticipated in the frontoparietal network.<br>

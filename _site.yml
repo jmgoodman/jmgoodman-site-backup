@@ -1,0 +1,48 @@
+name: "James Goodman"
+output_dir: "."
+navbar:
+  title: "James Goodman"
+  left:
+    - text: "CV"
+      href: files/JMG_CV.pdf
+    - text: "Projects"
+      href: projects.html
+    - text: "Data"
+      href: pdata.html
+    - text: "Publications"
+      href: pubs.html
+    - text: "Presentations"
+      href: conf.html
+    - text: "Press"
+      href: press.html
+    - text: "Contact"
+      href: contact.html
+  right:
+#     - text: "Google Scholar"
+#       href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+#     - text: "Twitter"
+#       href: https://twitter.com/jimmy_m_goode
+#     - icon: fa-twitter fa
+#       href: https://twitter.com
+    - icon: ai-google-scholar ai-lg # why does -lg work here...
+      href: https://scholar.google.com/citations?user=YHyy1UYAAAAJ&hl=en
+    - icon: fa-twitter fa # but -lg needed to be deleted here?
+      href: https://twitter.com/jimmy_m_goode
+    - icon: fa-linkedin fa
+      href: https://www.linkedin.com/in/james-goodman-phd-b1145a18/
+    - icon: fa-github fa # and here??? UGH what a mess
+      href: https://github.com/jmgoodman
+    - icon: fa-medium fa
+      href: https://james-m-goodman.medium.com/
+
+
+
+
+
+output:
+  html_document:
+    theme: darkly
+    css: 'styles.css'
+
+
+# 'arg' should be one of "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"

@@ -1,0 +1,15 @@
+---
+title: "Press"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br>
+B-CRATOS First Newsletter from March 2022 fetauring my article titled ["Three Reasons for a Touching Neuroprosthesis"](https://www.b-cratos.eu/newsletter1/)
+<br>
+
+<br>
+Press release from November 2020 titled ["Motor neural population activity patterns are different for reach and grasp behaviors"](https://www.eurekalert.org/pub_releases/2020-11/uocm-mnp111720.php). It covers a paper I co-authored titled ["Neural population dynamics in motor cortex are different for reach and grasp."](https://pubmed.ncbi.nlm.nih.gov/33200745/)
+<br>

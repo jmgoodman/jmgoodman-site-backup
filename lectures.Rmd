@@ -1,0 +1,16 @@
+---
+title: "Lecture Materials"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+
+<br>
+[Lecture Slides | Graph Theory | Methods in Computational Neuroscience | 2015](files/course-materials/Methods-in-Comp-Neuro/GraphTheoryLecture_JMG_.pdf)
+<br>
+
+<br>
+[Lecture Notes | Kalman Filter | Signal Analysis for Neuroscientists | 2015](files/course-materials/Signal-analysis-for-neuroscientists/Kalman-Filter-Handout.pdf)
+<br>

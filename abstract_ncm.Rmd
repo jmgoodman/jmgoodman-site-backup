@@ -1,0 +1,19 @@
+---
+title: "No evidence for hand synergies in sensorimotor cortices of macaques"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br>
+<h4>Authors</h4>
+<b>Goodman, J. M.</b><br>
+Tabot, G.A.<br>
+Suresh, A.K.<br>
+Hatsopoulos, N.G.<br>
+Bensmaia, S.J.<br>
+<br><br>
+
+<h4>Abstract</h4>
+We effortlessly grasp and manipulate objects with our hands even though each hand has 30 degrees of freedom. An appealing hypothesis of how the brain achieves such dexterity is by reducing the space of possible hand movements. Indeed, examination of kinematics of the hand using principle components analysis reveals correlated combinations of joints – synergies –, which may reflect this simplified control strategy. According to this hypothesis, synergies should reflect neuronal representations of the hand in primary motor and somatosensory cortices, which themselves should also occupy a reduced dimensionality. To test this idea, we have monkeys grasp a wide variety of objects to evoke highly varied hand kinematics. While monkeys perform this task, we track the time-varying joint angles of the hand during the course of these movements and simultaneously record from populations of single neural units in primary somatosensory and motor cortices. We then assess whether canonical kinematic synergies are preferentially encoded by single cortical neurons or by cortical populations. While we do find that single units in both S1 and M1 tend to preferentially encode multiple joints, the combinations of joints that are tracked or controlled are not what would be predicted based on a naïve interpretation of the synergy hypothesis.<br>

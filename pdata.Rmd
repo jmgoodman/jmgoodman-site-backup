@@ -1,0 +1,24 @@
+---
+title: "Publicly Available Data"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br>
+The following is a reference to the public dataset consisting primarily of the data that I recorded for my doctoral thesis. These comprise electrophysiology data from the primary motor and somatosensory cortices in addition to simultaneously tracked hand kinematic data. These data were uploaded to Dryad and can be downloaded [here](https://doi.org/10.5061/dryad.xsj3tx9cm). These data may be of interest to you if you are studying hand kinematics, the neural basis of proprioception, or the neural control of movement, particularly in the context of grasping or reaching. These data should be reasonably well annotated, but I don't doubt some questions will arise. When they do, feel free to [reach out](contact.html)!<br><br>
+
+<i>(* indicates equal contribution)</i>
+
+Suresh, A.K.\*, <b>Goodman, J.M.\*</b>, Okorokova, E.V., Kaufman, M.T., Hatsopoulos, N.G., & Bensmaia, S.J. (2020). Neural population dynamics in motor cortex are different for reach and grasp. Dryad Dataset. ([Access Link](https://doi.org/10.5061/dryad.xsj3tx9cm))<br><br>
+
+<b>Notes about credit assignment:</b><br>
+The author list reflects that of the paper it accompanies ([link](https://doi.org/10.7554/eLife.58848)) and does not reflect credit for the data collection per se.<br>
+
+The grasping data are the same as those used in Goodman et al. 2019 ([link](https://doi.org/10.1016/j.neuron.2019.09.004)) and collected by <b>Goodman, J.M.</b>, Tabot, G.A., Lee, A.S., Rajan, A.T., and Okorokova, E.V. under the supervision of Hatsopoulos, N.G. and Bensmaia, S.J.<br>
+
+The reaching data are the same as those used in Harpaz et al. 2019 ([link](https://doi.org/10.1093/cercor/bhy060)) and collected by Paulsen, D., Reimer, J., and Haga, Z. under the supervision of Hatsopoulos, N.G.<br>
+
+Please excuse the complicated credit assignment described above. These complications arise from the realities of sharing data that were pooled across different research groups, laboratories, and even decades.<br>
+

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Presentations</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">James Goodman</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="files/JMG_CV.pdf">CV</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="pdata.html">Data</a>
+</li>
+<li>
+  <a href="pubs.html">Publications</a>
+</li>
+<li>
+  <a href="conf.html">Presentations</a>
+</li>
+<li>
+  <a href="press.html">Press</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://scholar.google.com/citations?user=YHyy1UYAAAAJ&amp;hl=en">
+    <span class="ai ai-google-scholar ai-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/jimmy_m_goode">
+    <span class="fas fa-twitter fa"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/james-goodman-phd-b1145a18/">
+    <span class="fas fa-linkedin fa"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/jmgoodman">
+    <span class="fas fa-github fa"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://james-m-goodman.medium.com/">
+    <span class="fas fa-medium fa"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Presentations</h1>
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"> <link rel="stylesheet" href="./css/academicons.min.css"/></p>
+<br>
+<h4>
+Talks
+</h4>
+<p><b>Goodman, J. M.</b>, Schaffelhofer, S., &amp; Scherberger, H. (April 2021). Grip-specific neural population dynamics are not shared between action and observation in the frontoparietal cortical grasping network. Data Blitz talk. Meeting of the Society for the Neural Control of Movement (NCM), Online. (<a href="abstract_ncm2021.html">abstract</a>) (<a href="files/NCM2021.pdf">link to conference program, see pp. 30-31</a>) (<a href="files/Regular-Presentations/BlitzTalk_19042021.pdf">slides</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Schaffelhofer, S., &amp; Scherberger, H. (October 2020). Grip-specific dynamics are not shared between action and observation in the frontoparietal cortical grasping network. Interactive talk. Neuromatch, Online. (<a href="https://neuromatch.io/abstract/?submission_id=rec7oHoU7zBy5lR1l">link to Neuromatch program abstract</a>) (<a href="https://www.youtube.com/watch?v=8S1F-fsPEvA">link to YouTube recording</a>) <br><br></p>
+<p><b>Goodman, J. M.</b>, Suresh, A.K., Okorokova, E.V., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (October 2019). Primary motor cortex does not exhibit orderly dynamics during grasp. Nanosymposium talk. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 49: 722.08] (<a href="https://www.abstractsonline.com/pp8/#!/7883/presentation/65658">link to SfN program abstract</a>) (<a href="files/Regular-Presentations/Rotational_Dynamics_Talk_JMG_2019_10_17.pdf">slides</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>. (Early 2019). Postural representations of the hand in primate sensorimotor cortex. Job talk given when applying for post-doctoral positions at Johns Hopkins University, the German Primate Center (DPZ), and the University of Rochester. (<a href="files/Regular-Presentations/Job_Talk_2019_02_11.pdf">slides</a>) <br><br> <br></p>
+<h4>
+Posters
+</h4>
+<p><b>Goodman, J. M.</b>, Schaffelhofer, S., &amp; Scherberger, H. (November 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Society for Neuroscience, Online. [Abstracts of the Society for Neuroscience 50: P555.04] (<a href="https://www.abstractsonline.com/pp8/#!/10485/presentation/19054">link to SfN program abstract</a>) (<a href="files/Regular-Presentations/Mirror2021_SFN_forpresentation.pdf">slides</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Schaffelhofer, S., &amp; Scherberger, H. (September 2021). How similar are representations of observed and executed grasps in the frontoparietal cortical grasping network? Virtual Poster. Bernstein Conference, Online. (<a href="https://abstracts.g-node.org/conference/BC21/abstracts#/uuid/04617b1f-94cc-4ae4-bcc7-888e9aa6de7e">link to Bernstein Conference program abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Schaffelhofer, S., &amp; Scherberger, H. (October 2020). Population-level signatures of action and observation in the frontoparietal grasping network. Virtual Poster. Bernstein Conference, Online. (<a href="https://abstracts.g-node.org/conference/BC20/abstracts#/uuid/4edb7e77-9c07-4db7-869b-ebff5ac0d02d">link to Bernstein Conference program abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Lee, A.S., Okorokova, E.V., Suresh, A.K., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (November 2018). Neurons in somatosensory and motor cortices encode hand postures, not joint velocities. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 48: 310.12] (<a href="https://www.abstractsonline.com/pp8/#!/4649/presentation/2223">link to SfN program abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Lee, A.S., Suresh, A.K., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (May 2018). The representation of hand postures and movements in somatosensory cortex. Poster. Janelia conference on the Mechanisms of Dexterous Behavior, Ashburn, VA (<a href="https://www.janelia.org/you-janelia/conferences/mechanisms-dexterous-behavior">link to conference website</a>) (<a href="abstract_janelia.html">abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (May 2017). No evidence for hand synergies in sensorimotor cortices of macaques. Poster. Meeting of the Society for the Neural Control of Movement (NCM), Dublin, Ireland. (<a href="https://ncm-society.org/meeting-history/">link to conference website</a>) (<a href="abstract_ncm.html">abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Tabot, G.A., Suresh, A.K., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (November 2016). High-dimensional representation of hand movements in sensory and motor cortices. Poster. Society for Neuroscience, San Diego, CA [Abstracts of the Society for Neuroscience 46: 151.11] (<a href="https://www.abstractsonline.com/pp8/index.html#!/4071/presentation/18558">link to SfN program abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Tabot, G.A., Rajan, A.S., Suresh, A.K., Hatsopoulos, N.G., &amp; Bensmaia, S.J. (October 2015). Do proprioceptive neurons in somatosensory cortex encode muscle length? Poster. Society for Neuroscience, Chicago, IL [Abstracts of the Society for Neuroscience 45: 706.22] (<a href="https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=8f4e9605-764e-4cdf-9ce4-aeaeb37f00da&amp;cKey=758e5fa6-12e3-4516-84d8-b0b4893bdf96&amp;mKey=%7bD0FF4555-8574-4FBB-B9D4-04EEC8BA0C84%7d">link to SfN program abstract</a>)<br><br></p>
+<p><b>Goodman, J. M.</b>, Lieber, J.D., Saal, H.P., &amp; Bensmaia, S.J. (November 2014). Spatial variation of simulated slowly adapting type 1 afferent responses to embossed dot patterns predicts perceived roughness. Poster. Society for Neuroscience, Washington, D.C. [Abstracts of the Society for Neuroscience 44: 441.16] (<a href="https://www.abstractsonline.com/Plan/ViewAbstract.aspx?sKey=d2d5f234-0ab5-4eb3-9400-51d2702c1327&amp;cKey=5f54a8fe-aa44-47a3-97b2-1bcad3dfa5be&amp;mKey=%7b54C85D94-6D69-4B09-AFAA-502C0E680CA7%7d">link to SfN program abstract</a>)<br><br> <br></p>
+<h4>
+Class Lectures
+</h4>
+<p><br> <a href="files/course-materials/Methods-in-Comp-Neuro/GraphTheoryLecture_JMG_.pdf">Lecture Slides | Graph Theory | Methods in Computational Neuroscience | 2015</a> <br></p>
+<p><br> <a href="files/course-materials/Signal-analysis-for-neuroscientists/Kalman-Filter-Handout.pdf">Lecture Notes | Kalman Filter | Signal Analysis for Neuroscientists | 2015</a> <br><br> <br></p>
+<h4>
+Internal Journal Club Presentations
+</h4>
+<p><br> <a href="files/JC-presentations/DPZ-NBL-JC-08-03-2022.pdf">Discussion of “Hierarchical organization of rhesus macaque behavior”, Voloh et al., 2022, <em>bioRxiv</em> preprint | 08 March 2022 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="https://www.biorxiv.org/content/10.1101/2021.11.15.468721v1">Link to preprint</a>) <br></p>
+<p><br> <a href="files/JC-presentations/Neuromatch-Executive-Summary_05102021.pdf">Executive summary of Neuromatch Deep Learning Summer School August 2021 | 05 October 2021 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="deeplearning.neuromatch.io">Link to course materials</a>) <br></p>
+<p><br> <a href="files/JC-presentations/Delhaye_etal_2021_.pdf">Discussion of “High-resolution imaging of skin deformation shows that afferents from human fingertips signal slip onset”, Delhaye et al., 2021 <em>eLife</em> | 11 May 2021 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="https://elifesciences.org/articles/64679">Link to journal article</a>) <br></p>
+<p><br> <a href="files/JC-presentations/NBL-JC-08-12-2020-Jiang-Saggar-Ryu-Shenoy-Kao-2020-Cell-Reports-07122020.pdf">Discussion of “Structure in Neural Activity during Observed and Executed Movements is Shared at the Neuronal Population Level, not in Single Neurons”, Jiang et al. 2020, <em>Cell Reports</em> | 08 December 2020 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="https://www.sciencedirect.com/science/article/pii/S2211124720309918">Link to journal article</a>) <br></p>
+<p><br> <a href="files/Capara-and-Janssen-2020-Effect-of-viewing-distance-in-frontal-cortex.pdf">Discussion of “Effect of viewing distance on object responses in macaque areas 45B, F5a, and F5p”, Caprara and Janssen 2020, <em>bioRxiv</em> preprint | 30 June 2020 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="https://www.biorxiv.org/content/10.1101/2020.05.04.070862v1">Link to preprint</a>) <br></p>
+<p><br> <a href="files/JMG_JC_2019_11_19.pdf">Discussion of “Condition-Dependent Neural Dimensions Progressively Shift during Reach to Grasp”, Rouse and Schieber 2019, <em>Cell Reports</em> | 19 November 2019 | Neurobiology Lab Journal Club | German Primate Center</a> (<a href="https://www.sciencedirect.com/science/article/pii/S2211124718318333">Link to journal article</a>) <br></p>
+<p><br> <a href="files/Pruszynski-nature-neuro-18022019.pdf">Discussion of “Spinal stretch reflexes support efficient hand control”, Weiler et al. 2019, <em>Nature Neuroscience</em> brief communication | 18 February 2019 | Bensmaia Lab Journal Club | University of Chicago</a> (<a href="https://www.nature.com/articles/s41593-019-0336-0">Link to journal article</a>) (<a href="https://gribblelab.org/assets/publications/2019_Weiler_NatNeurosci.pdf">Link to PDF hosted by the Gribble lab website</a>) <br></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

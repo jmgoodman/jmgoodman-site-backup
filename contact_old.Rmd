@@ -1,0 +1,31 @@
+---
+title: "Contact"
+output: html_document
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+<link rel="stylesheet" href="./css/academicons.min.css"/>
+
+<br>
+Here's how you can reach out to me:<br><br>
+<br>
+
+
+<h4>E-mail</h4>
+JG<!--rumpel&commat;stiltskin&period;com-->oodm<!--harriet&commat;tubman&period;org-->an&commat;dpz&period;e<!--harrison&commat;ford&period;net-->u<br>
+<br><br>
+
+<h4>Office Mail</h4>
+James Goodman<br>
+Deutsches Primatenzentrum<br>
+Abteilung Neurobiologie<br>
+Kellnerweg 4<br>
+Göttingen 37077<br>
+Deutschland<br>
+<br><br>
+
+<h4>Office Phone</h4>
++49 551 3851-425<br>
+<br><br>
+
+
