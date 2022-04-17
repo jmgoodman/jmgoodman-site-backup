@@ -1,8 +1,0 @@
----
----
-
-<link rel="stylesheet" href="styles.css" type="text/css">
-
-A full list of my publications is available on [Google scholar](https://scholar.google.com/citations?hl=en&user=YHyy1UYAAAAJ).
-
-My CV is also available for download [here.](files/JMG_CV_2020_04_15.pdf)

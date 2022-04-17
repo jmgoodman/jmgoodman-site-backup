@@ -1,9 +1,0 @@
----
----
-
-<link rel="stylesheet" href="styles.css" type="text/css">
-
-## Github packages
-
-[`Under Construction`](https://www.google.com/), a sample entry for me to fill in with content later. (Link currently just takes you to google.com).
-
